@@ -29,6 +29,8 @@
 		<language tag="nl-NL">nl-NL/nl-NL.mod_slogin.sys.ini</language>
 		<language tag="pt-PT">pt-PT/pt-PT.mod_slogin.ini</language>
 		<language tag="pt-PT">pt-PT/pt-PT.mod_slogin.sys.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.mod_slogin.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.mod_slogin.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
