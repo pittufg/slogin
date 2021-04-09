@@ -36,12 +36,20 @@
 		<fields name="params">
 			<fieldset name="basic">
                 <field
+                        name="register_link"
+                        type="textarea"
+                        value="0"
+                        label="MOD_SLOGIN_FIELD_REGISTER_URL"
+                        description="MOD_SLOGIN_FIELD_REGISTER_URL_DESC" />
+				
+				<field
                         name="show_login_form"
                         type="checkbox"
                         filter="int"
                         value="1"
                         label="MOD_SLOGIN_FIELD_SHOW_LOGIN_FORM"
                         description="MOD_SLOGIN_FIELD_SHOW_LOGIN_FORM_DESC" />
+						
                 <field
                         name="show_fusion_form"
                         type="checkbox"

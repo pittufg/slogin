@@ -151,6 +151,26 @@ defined('_JEXEC') or die('(@)|(@)');
 				<?php echo JText::_('MOD_SLOGIN_REGISTER'); ?></a>
 		</li>
 		<?php endif; ?>
+		
+		<!-- Pitt Register Link  -->
+		<?php if ( $params->get('register_link') ):?>
+			<style>
+				div#pitt-login {
+					position: absolute;
+					width: 100%;
+					left: 0;
+					margin-top: 10px;
+					height: 50px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background-color: #1C76BE;
+				}
+			</style>
+			<div id="pitt-login">
+				<a href="<?php echo $params->get('register_link') ?>">Registrar-se</a>
+			</div>
+		<?php endif; ?>
 	</ul>
 	<?php if ($params->get('posttext')): ?>
 		<div class="posttext">
