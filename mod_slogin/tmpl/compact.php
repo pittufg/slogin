@@ -168,7 +168,9 @@ defined('_JEXEC') or die('(@)|(@)');
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        background-color: #1C76BE;
+                        background-color: #FFF;
+                        color: black;
+                        font-weight: bold;
                     }
                 </style>
                 <div id="pitt-login">
